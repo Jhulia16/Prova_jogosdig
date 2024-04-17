@@ -5,4 +5,4 @@
 
 $L(\theta)=Log(K_{n}(\eta))-\frac{1}{2}log|E|-\frac{1}{2{n}}(1+{n}\eta)log(1+c(\eta)\delta)$
 
-**com** $log(K_{n}(\eta))=\frac{n}{2}log({c(\eta)}{pi})$
+**com** $log(K_{n}(\eta))=\frac{n}{2}log(\frac{c(\eta)}{pi}()$
