@@ -9,4 +9,10 @@ $\mathcal{L}(\theta)=Log(K_{n}(\eta))-\frac{1}{2}log|\Sigma|-\frac{1}{2{n}}(1+{n
 
  **As funções escores para o modelo espacial linear t-Student são fornecidas por** $U_\theta(\theta)=( U_\beta^T,U_Φ^T)^T$, **em que**
 
-$U_\beta=\partial\mathcal{L}(\theta)/\partial\beta=w(\delta)\boldsymbol{X}^T\Sigma^{-1}\epsilon$ **and** $U_Φ=\partial\mathcal{L}(\theta)/\partialΦ$, **com o j-ésimo elemento de U_Φ, dado por** $U_{{\phi}_{j}}=\partal\mathcal{$
+$U_\beta=\partial\mathcal{L}(\theta)/\partial\beta=w(\delta)\boldsymbol{X}^T\Sigma^{-1}\epsilon$ **and** $U_Φ=\partial\mathcal{L}(\theta)/\partialΦ$, **com o j-ésimo elemento de** $U_{\phi}$, dado por** $U_{{\phi}_{j}}=\partial\mathcal{L}(\theta)/\partial \phi_j=-\frac{1}{2}tr(\Sigma^{-1}(\partial\Sigma/\partial \phi_j))+\frac{1}{2}w(\delta)\epsilon^T\Sigma^{-1}(\partial\Sigma/\partial \phi_j)\Sigma^{-1}\epsilon$**, para** $j=1,2, w(\delta) = (\frac{1+\eta{n}}{\eta}) (\frac{c(\eta}{1+c(\eta)\delta})$ **e** $\psi(x)$ **é a função Digama. Nesse artigo,** $\Sigma = \phi_1I_n + \phi_2$**R, então** $\partial\Sigma\phi_1 = I_n$  **e** $\partial\Sigma/\partial\phi_2 =$ **R. Dado** $\Sigma$**, a função logo-verossimilhança (4.4) é maximizada em**
+
+$\hat {B}=(\boldsymbol{X}^T \Sigma^{-1} \Sigma)^{-1}\boldsymbol{X}^T \Sigma^{-1} \boldsymbol{Y}$ **, e de** $U_\phi =$ **0 tem-se que,**
+
+$_{i}) \phi_1 tr(\Sigma^{-1}\Sigma^{-1})+ \phi_2 tr(\Sigma^{-1}R\Sigma^{-1}) = w(\delta)\epsilon^T\Sigma^{-1}\Sigma^{-1}\epsilon$,
+
+$_{i}_{i}) \phi_1 tr(\Sigma^{-1}R\Sigma^{-1})+ \phi_2 tr(\Sigma^{-1}R\Sigma^{-1}) = w(\delta)\epsilon^T\Sigma^{-1}R\Sigma^{-1}\epsilon$
